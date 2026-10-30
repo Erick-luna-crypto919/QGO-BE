@@ -1,0 +1,9 @@
+POST http://localhost:8080/api/usuarios
+Content-Type: application/json
+
+{
+  "nombre": "Juan",
+  "correo": "juan@gmail.com",
+  "contrasena": "123456",
+  "rol": "CLIENTE"
+}
